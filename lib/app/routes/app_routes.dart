@@ -5,10 +5,18 @@ abstract class Routes {
   Routes._();
   static const HOME = _Paths.HOME;
   static const LOGIN = _Paths.LOGIN;
+  static const BOOK = _Paths.BOOK;
+  static const ADD_BOOK = _Paths.ADD_BOOK;
+  static const PEMINJAM = _Paths.PEMINJAM;
+  static const PEMINJAMAN = _Paths.PEMINJAMAN;
 }
 
 abstract class _Paths {
   _Paths._();
   static const HOME = '/home';
   static const LOGIN = '/login';
+  static const BOOK = '/book';
+  static const ADD_BOOK = '/add-book';
+  static const PEMINJAM = '/peminjam';
+  static const PEMINJAMAN = '/peminjaman';
 }
